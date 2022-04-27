@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="User Input, with JavaScript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Nathan student">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Guess the Number!</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Guess the Number!</h1>
+		<table>
+			<tr>
+				<td>
+					<h3>Enter a random number between 1 & 6:</h3>
+					<form action="javascript:numberGen()">										<!-- TextBox -->
+						<label for="number">Number (1-6):</label>
+						<input type="number" step="1" min="1" max="6" id="number"><br><br>
+						<!-- Button -->
+						<input type="submit" value="Generate number">
+					</form>
+				</td>
+				<td>
+					<!-- Image -->
+					<img src="./images/Numbers.png" alt="numbers" width="30%" height ="30%">
+				</td>
+			</tr>
+		</table>
+		<!-- Create a space where the user information will be displayed -->
+			<div id="display">
+			</div>
+		</div>
+  </body>
+</html>
